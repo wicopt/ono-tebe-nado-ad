@@ -24,7 +24,8 @@ p {
 .info {
   justify-self: end;
   list-style-type: none;
-  width: 240px;
+  max-width: 240px;
+  font-size: 18px;
 }
 .first-in-list {
   list-style-type: none;
@@ -80,7 +81,7 @@ p {
   align-items: center;
 }
 .h2 {
-  word-spacing: 25px;
+  word-spacing: 20px;
   font-weight: 100;
   font-size: 22px;
 }
@@ -183,7 +184,7 @@ h2 {
   object-fit: contain;
 }
 .about-text {
-  padding-left: 72px;
+  padding-left: 30px;
 }
 .about-h2 {
   margin: 100px 0;
@@ -199,6 +200,10 @@ footer {
 }
 .centr {
   text-align: center;
+  justify-self: center;
+}
+.footer-info{
+  justify-self: start;
 }
 .media-icons {
   width: 240px;
